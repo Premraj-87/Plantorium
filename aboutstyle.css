@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e0e4e4;
+  height: 15vh;
+  width: 100vw;
+  align-items: center;
+  font-size: large;
+}
+
+.left ul,
+.center ul,
+.right ul {
+  display: flex;
+}
+
+ul li {
+  margin: 10px;
+  list-style-type: none;
+}
+.center ul {
+  font-family: Inria Sans;
+  font-weight: 550;
+  justify-content: space-around;
+}
+.center ul li a{
+  margin: 2.5rem;
+  font: black;
+  position: relative;
+  text-decoration: none;
+  
+}
+
+.left ul {
+  font-family: Inria Sans;
+  font-weight: 500;
+  font-size: 35px;
+  right: 5vw;
+  position: relative;
+}
+.leftword {
+  position: relative;
+  top: 20p;
+}
+.leftlogo {
+  height: 60px;
+  position: relative;
+  bottom: 10px;
+}
+.right ul {
+  font-family: Inria Sans;
+  font-weight: 200;
+  font-size: 25px;
+  left: 2vw;
+  position: relative;
+}
+.right ul,
+.rightlogo {
+  height: 50px;
+  position: relative;
+}
+
+/* about us */
+
+.abot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 25vh;
+   
+}
+.abt{
+    font-size: 3rem;
+}
+.abtt{
+    position:relative;
+    top: 2vh;
+    font-size: 1.5rem;
+}
+
+/* about us container */
+
+.maincont{
+    display: flex;
+    width: 100vw;
+    height: 90vh;
+
+}
+.imgg{
+  position: relative;
+  left: 10vw;
+  top: 10vh;
+    
+}
+.igg{
+  position: relative;
+  top: 5vh;
+   width: 60%;
+  
+   
+}
+.text1{
+  display: flex;
+  flex-direction: column;
+  position:relative;
+  right: 10vw;
+  top: 14vh;
+  
+}
+.h1{
+  font-size: 2.5rem;
+  position: relative;
+  left: 1vw;
+}
+.h2{
+  font-size:1.7rem;
+  margin: 20px;
+}
+.h3{
+  display: flex;
+  position: relative;
+  background-color:green;
+  color:black;
+  padding: 15px;
+  font-size:1.2rem;
+  height: 6vh;
+  width: 8vw;
+  margin-top: 2vh;
+  left: 1.5vw;
+  
+  
+  
+   
+}
+.h4{
+  
+}
+
+/* this is about the footerpage */
+.footerpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E0E4E4;
+  width: 100vw;
+  height: 35vh;
+}
+
+.plantHeading{
+  font-size: 2.5rem;
+  position: relative;
+  top: 2vh;
+}
+
+.plantDesc{
+  font-size: 1.7rem;
+  bottom: 40vh;
+  position: relative;
+  top: 5vh;
+}
+
+.plantIcons{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.endlogo{
+  width: 100px;
+}
+
+.logoCenter{
+  display: flex;
+}
+
+.logoleft{
+  position: relative;
+  right: 14vw;
+}
+
+.logoCenter span a{
+  margin: 1rem;
+  top:8vh;
+  position: relative;
+  font-size: 1.5rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.logoRight {
+  display: flex;
+}
+
+.logoRight span{
+  margin: .5rem;
+  position: relative;
+  left: 10vw;
+}
+.log4 a{
+  display: flex;
+  position: relative;
+  top:10vh;
+  left: 7vw;
+  text-decoration: none;
+
+}
+.logoright1{
+  width: 30px;
+  position: relative;
+  top: 8vh;
+}

@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #e0e4e4;
+  height: 15vh;
+  width: 100vw;
+  align-items: center;
+  font-size: large;
+}
+
+.left ul,
+.center ul,
+.right ul {
+  display: flex;
+}
+
+ul li {
+  margin: 10px;
+  list-style-type: none;
+}
+.center ul {
+  font-family: Inria Sans;
+  font-weight: 550;
+ 
+  justify-content: space-around;
+}
+.center ul li a{
+  margin: 2.5rem;
+  position: relative;
+  color: black;
+  text-decoration: none;
+  
+}
+
+.left ul {
+  font-family: Inria Sans;
+  font-weight: 500;
+  font-size: 35px;
+  right: 5vw;
+  position: relative;
+}
+.leftword {
+  position: relative;
+  top: 20p;
+}
+.leftlogo {
+  height: 60px;
+  position: relative;
+  bottom: 10px;
+}
+.right ul {
+  font-family: Inria Sans;
+  font-weight: 200;
+  font-size: 25px;
+  left: 2vw;
+  position: relative;
+}
+.right ul,
+.rightlogo {
+  height: 50px;
+  position: relative;
+}
+/* cart page
+   */
+
+.cartcontainer {
+  display: flex;
+
+ 
+  width: 100vw;
+  height: 100vh;
+}
+.card1{
+  display: flex;
+ 
+  width: 50vw;
+  
+}
+
+.cardpic{
+  margin-top: 10vh;
+  margin-left: 15vw;
+  
+}
+.cardpic1{
+  height: 450px;
+  width: 350px;
+
+}
+.cardsmall{
+  display: flex;
+  position:absolute;
+  margin-top:80vh;
+  justify-content: space-evenly;
+  margin-left: 15vw;
+  align-items: center;
+}
+.smallpic2{
+  
+  width: 110px;
+  height: 90px;
+  margin: 5px;
+}
+/* card2start */
+.card2{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.submit{
+  width: 100px;
+  height: 40px;
+  color: #000;
+  background-color: orange;
+  border: 0;
+}
+
+.class{
+  font-size: 2.5rem;
+  margin-top: 15vh;
+}
+.dolr{
+  font-size: 2rem;
+  margin-top: 1vh;
+}
+.twot{
+  display: flex;
+  margin-top: 5vh;
+}
+
+.select{
+  margin-top: 3vh;
+}
+
+input{
+  height: 40px;
+  width: 40px;
+}
+
+.addtoc{
+  margin-left: 2vw;
+}
+
+.dis{
+  font-size: 1.5rem;
+  margin-top: 4vh;
+  font: bold;
+}
+.lines{
+  font-size: 1.3rem;
+  margin-right: 4vw;
+  margin-top: 2vh;
+}
+
+/* plants */
+
+/* this is about the footerpage */
+.footerpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E0E4E4;
+  width: 100vw;
+  height: 35vh;
+}
+
+.plantHeading{
+  font-size: 2.5rem;
+  position: relative;
+  top: 2vh;
+}
+
+.plantDesc{
+  font-size: 1.7rem;
+  bottom: 40vh;
+  position: relative;
+  top: 5vh;
+}
+
+.plantIcons{
+  display: flex;
+  width: 100vw;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.endlogo{
+  width: 100px;
+}
+
+.logoCenter{
+  display: flex;
+}
+
+.logoleft{
+  position: relative;
+  right: 14vw;
+}
+
+.logoCenter span a{
+  margin: 1rem;
+  top:8vh;
+  position: relative;
+  font-size: 1.5rem;
+  display: flex;
+  text-decoration: none;
+}
+
+.logoRight {
+  display: flex;
+}
+
+.logoRight span{
+  margin: .5rem;
+  position: relative;
+  left: 10vw;
+}
+.log4 a{
+  display: flex;
+  position: relative;
+  top:10vh;
+  left: 7vw;
+  text-decoration: none;
+
+}
+.logoright1{
+  width: 30px;
+  position: relative;
+  top: 8vh;
+}
+
+
